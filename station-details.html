@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quick Charge</title> 
+        <link rel="stylesheet" href="station-details.css">
+    </head>
+    <body>
+        <div class="backimage">
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="home.html" class="logo"><h1>LOGO</h1> </a> 
+                </div>
+                <!-- <div class="navbar-center"> -->
+                    <!-- <ul> -->
+                        <!-- <li><a href="home.html"><span>HOME</span></a></li> -->
+                        <!-- <li><a href="home.html"><span>CONTACT</span></a></li> -->
+                    <!-- </ul> -->
+                <!-- </div> -->
+                <div class="navbar-right">
+                    <div class="online">
+                        <img src="3312001.jpg" class="navi-profile-img" onclick="toggleMenu()">
+                    </div>
+                </div>
+
+<!-- ...............drop down menu........ -->
+            <div class="profile-menu-wrap" id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="pexels-mike-b-110844.jpg">
+                    <div>
+                        <h3>Bhushan</h3>
+                        <a href="#">see your profile</a>
+                    </div>
+                    </div>
+                    <hr>
+                    <a href="home.html" class="profile-menu-link">
+                       <p>Home</p>
+                       <span>></span>
+                   </a>
+                   <a href="home.html" class="profile-menu-link"> 
+                       <!-- change href links and add img tag to add icons -->
+                    <p>Change Password</p>
+                    <span>></span>
+                </a>
+                <a href="home.html" class="profile-menu-link">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>     
+                </div>
+            </nav>
+         
+    <!-- navigation bar ended -->
+
+    <script>
+        // script for drop down menu
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+    </div>
+    </body>
+
+</html>
